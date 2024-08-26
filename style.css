@@ -1,0 +1,296 @@
+:root{
+ --medium:#22282f;
+ --dark:#1b1f24;
+ --light:white;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: "Oswald",sans-serif;
+}
+
+header{
+ color: white;
+ background: var(--dark);
+ padding: 10px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center
+}
+
+header .logo{
+ font-size: 27px;
+ color: var(--light);
+}
+
+header ul{
+ list-style:none;
+ display: flex;
+}
+
+header ul li{
+ margin: 20px;
+}
+
+header ul li a{
+ color: white;
+ text-decoration: none;
+}
+
+.hero-photo {
+ padding: 0px 70px;
+}
+
+header button{
+ font-size: 14px;
+ border: 1px solid var(--light);
+ color: var(--light);
+ padding:5px 8px;
+border-radius: 5px;
+background: var(--dark) ;
+}
+
+section.hero-section{
+ background: var(--dark);
+ color:white;
+ display: flex;
+ align-items: center;
+ padding: 30px 90px 30px 170px;
+}
+
+.hero-section__title{
+ font-size: 35px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.hero-section__title span{
+ color: goldenrod;
+ 
+}
+
+.icons{
+ font-size: 25px;
+ margin:10px 0 ;
+}
+
+.icons li{
+ margin-right: 10px;
+}
+
+.icons ul{
+ list-style: none;
+ display: flex;
+}
+
+.icons li a{
+ text-decoration: none;
+ color: white;
+}
+
+.hero-buttons button{
+ margin-right: 10px;
+}
+
+.btn{
+font-weight: bold;
+font-size: 14px;
+border: 1px solid var(--light);
+color: var(--light);
+padding:5px 10px;
+border-radius: 5px;
+background: var(--dark);
+}
+
+.btn2 {
+ font-weight: bold;
+ font-size: 14px;
+ border: 1px solid var(--light);
+ color: var(--dark);
+ padding: 5px 10px;
+ border-radius: 5px;
+ background: var(--light);
+}
+
+.about-section{
+ padding: 30px 90px 30px 0px;
+ display: flex;
+ justify-content: center;
+ color: white;
+ background: #22282f;
+ align-items: center;
+}
+
+.about-section img{
+ border-radius: 50px;
+}
+
+.about-section__desc{
+ max-width: 600px;
+ margin-left: 100px;
+}
+
+.about-section__desc h4{
+ font-size: 30px;
+}
+
+.about-section__desc ol {
+ margin: 10px 15px 0 0;
+ list-style: none;
+}
+
+.about-section__desc ol a {
+ color: lightgrey;
+ text-decoration: none;
+}
+
+.about-section__desc li{
+ margin-bottom: 10px;
+ color: lightgray;
+}
+
+.about-section__desc li strong{
+ color: white;
+}
+
+/*reference*/
+.work-section {
+ text-align: center;
+ padding: 50px;
+ color:white;
+ background: var(--dark);
+}
+
+.work-section-div{
+ margin: 20px;
+}
+
+.work-section-box{
+ border-radius: 30px;
+ padding: 20px;
+ text-align: center;
+ background: var(--medium);
+}
+
+.work-section-box a{
+margin-top: 10px;
+display: block;
+text-decoration: none;
+color: goldenrod;
+}
+
+.work-section-box p{
+ color: lightgray;
+ font-size: 14px;
+}
+
+.work-section__desc{
+ margin-top:8px;
+ 
+}
+
+.work-section-icon{
+ color: var(--dark);
+ padding: 2px 5px;
+ border-radius:30%;
+ background: white;
+}
+
+.work-section-title {
+ font-size: 30px;
+}
+
+.contact-section{
+ padding: 50px;
+ text-align: center;
+ color: white;
+ background: var(--medium);
+}
+
+.contact-section h4{
+ font-weight: bold;
+ font-size: 30px;
+ margin: 20px 0 ;
+}
+
+.contact-section form div input, textarea{
+ margin: 8px;
+ border-radius: 10px;
+ padding: 5px 10px;
+ font-size: 15px;
+ width: 350px;
+ background: var(--dark);
+ outline: none;
+}
+
+.btn3{
+font-weight: bold;
+width: 230px;
+margin-top: 10px;
+font-size: 14px;
+border: 1px solid var(--light);
+color: var(--dark);
+padding: 5px 10px;
+border-radius: 5px;
+background: var(--light);
+}
+
+.footer{
+ font-size: 12px;
+ text-align: center;
+ padding: 10px;
+ color: lightgray;
+ background: var(--dark);
+}
+
+.footer a{
+ text-decoration: none;
+ color: goldenrod;
+}
+/* my idea*/
+/*.work-section h4 span{
+ color: goldenrod;
+}
+
+.work-section h4{
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-size: 30px;
+}
+
+.work-section-box{
+ margin: 10px;
+ border-radius: 50px;
+ background: #22282f;
+ display: flex;
+ justify-content: center;
+}
+
+
+.work-section img{
+  border-radius: 50px;
+  width: 300px;
+  margin: 25px;
+}
+ 
+ .work-section-icon a{
+  padding: 10px;
+  text-decoration: none;
+  color: var(--light) ;
+ }
+ 
+
+.work-section-icon{
+ font-size: 25px;
+ justify-content: center;
+}
+
+.work-section-icon a i{
+ color: goldenrod;
+}*/
